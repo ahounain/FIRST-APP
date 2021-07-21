@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E020CB1A26A860890048A123 /* app.swift in Sources */ = {isa = PBXBuildFile; fileRef = E020CB1926A860890048A123 /* app.swift */; };
+		E0FAFF2F26A744D300FFEEF1 /* noqluApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FAFF2E26A744D300FFEEF1 /* noqluApp.swift */; };
+		E0FAFF3126A744D300FFEEF1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FAFF3026A744D300FFEEF1 /* ContentView.swift */; };
+		E0FAFF3326A744D600FFEEF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0FAFF3226A744D600FFEEF1 /* Assets.xcassets */; };
+		E0FAFF3626A744D600FFEEF1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0FAFF3526A744D600FFEEF1 /* Preview Assets.xcassets */; };
+		E0FAFF4226A744D600FFEEF1 /* noqluTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FAFF4126A744D600FFEEF1 /* noqluTests.swift */; };
+		E0FAFF4D26A744D600FFEEF1 /* noqluUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FAFF4C26A744D600FFEEF1 /* noqluUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E0FAFF3E26A744D600FFEEF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0FAFF2326A744D300FFEEF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0FAFF2A26A744D300FFEEF1;
+			remoteInfo = noqlu;
+		};
+		E0FAFF4926A744D600FFEEF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0FAFF2326A744D300FFEEF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0FAFF2A26A744D300FFEEF1;
+			remoteInfo = noqlu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E020CB1926A860890048A123 /* app.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = app.swift; sourceTree = SOURCE_ROOT; };
+		E0FAFF2B26A744D300FFEEF1 /* noqlu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = noqlu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0FAFF2E26A744D300FFEEF1 /* noqluApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = noqluApp.swift; sourceTree = "<group>"; };
+		E0FAFF3026A744D300FFEEF1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E0FAFF3226A744D600FFEEF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E0FAFF3526A744D600FFEEF1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E0FAFF3726A744D600FFEEF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0FAFF3826A744D600FFEEF1 /* noqlu.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = noqlu.entitlements; sourceTree = "<group>"; };
+		E0FAFF3D26A744D600FFEEF1 /* noqluTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = noqluTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0FAFF4126A744D600FFEEF1 /* noqluTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = noqluTests.swift; sourceTree = "<group>"; };
+		E0FAFF4326A744D600FFEEF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0FAFF4826A744D600FFEEF1 /* noqluUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = noqluUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0FAFF4C26A744D600FFEEF1 /* noqluUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = noqluUITests.swift; sourceTree = "<group>"; };
+		E0FAFF4E26A744D600FFEEF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0FAFF2826A744D300FFEEF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0FAFF3A26A744D600FFEEF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0FAFF4526A744D600FFEEF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E0FAFF2226A744D300FFEEF1 = {
+			isa = PBXGroup;
+			children = (
+				E0FAFF2D26A744D300FFEEF1 /* noqlu */,
+				E0FAFF4026A744D600FFEEF1 /* noqluTests */,
+				E0FAFF4B26A744D600FFEEF1 /* noqluUITests */,
+				E0FAFF2C26A744D300FFEEF1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E0FAFF2C26A744D300FFEEF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0FAFF2B26A744D300FFEEF1 /* noqlu.app */,
+				E0FAFF3D26A744D600FFEEF1 /* noqluTests.xctest */,
+				E0FAFF4826A744D600FFEEF1 /* noqluUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0FAFF2D26A744D300FFEEF1 /* noqlu */ = {
+			isa = PBXGroup;
+			children = (
+				E0FAFF2E26A744D300FFEEF1 /* noqluApp.swift */,
+				E0FAFF3026A744D300FFEEF1 /* ContentView.swift */,
+				E0FAFF3226A744D600FFEEF1 /* Assets.xcassets */,
+				E0FAFF3726A744D600FFEEF1 /* Info.plist */,
+				E0FAFF3826A744D600FFEEF1 /* noqlu.entitlements */,
+				E0FAFF3426A744D600FFEEF1 /* Preview Content */,
+			);
+			path = noqlu;
+			sourceTree = "<group>";
+		};
+		E0FAFF3426A744D600FFEEF1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E0FAFF3526A744D600FFEEF1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E0FAFF4026A744D600FFEEF1 /* noqluTests */ = {
+			isa = PBXGroup;
+			children = (
+				E0FAFF4126A744D600FFEEF1 /* noqluTests.swift */,
+				E0FAFF4326A744D600FFEEF1 /* Info.plist */,
+			);
+			path = noqluTests;
+			sourceTree = "<group>";
+		};
+		E0FAFF4B26A744D600FFEEF1 /* noqluUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E0FAFF4C26A744D600FFEEF1 /* noqluUITests.swift */,
+				E020CB1926A860890048A123 /* app.swift */,
+				E0FAFF4E26A744D600FFEEF1 /* Info.plist */,
+			);
+			path = noqluUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0FAFF2A26A744D300FFEEF1 /* noqlu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0FAFF5126A744D600FFEEF1 /* Build configuration list for PBXNativeTarget "noqlu" */;
+			buildPhases = (
+				E0FAFF2726A744D300FFEEF1 /* Sources */,
+				E0FAFF2826A744D300FFEEF1 /* Frameworks */,
+				E0FAFF2926A744D300FFEEF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = noqlu;
+			productName = noqlu;
+			productReference = E0FAFF2B26A744D300FFEEF1 /* noqlu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E0FAFF3C26A744D600FFEEF1 /* noqluTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0FAFF5426A744D600FFEEF1 /* Build configuration list for PBXNativeTarget "noqluTests" */;
+			buildPhases = (
+				E0FAFF3926A744D600FFEEF1 /* Sources */,
+				E0FAFF3A26A744D600FFEEF1 /* Frameworks */,
+				E0FAFF3B26A744D600FFEEF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0FAFF3F26A744D600FFEEF1 /* PBXTargetDependency */,
+			);
+			name = noqluTests;
+			productName = noqluTests;
+			productReference = E0FAFF3D26A744D600FFEEF1 /* noqluTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E0FAFF4726A744D600FFEEF1 /* noqluUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0FAFF5726A744D600FFEEF1 /* Build configuration list for PBXNativeTarget "noqluUITests" */;
+			buildPhases = (
+				E0FAFF4426A744D600FFEEF1 /* Sources */,
+				E0FAFF4526A744D600FFEEF1 /* Frameworks */,
+				E0FAFF4626A744D600FFEEF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0FAFF4A26A744D600FFEEF1 /* PBXTargetDependency */,
+			);
+			name = noqluUITests;
+			productName = noqluUITests;
+			productReference = E0FAFF4826A744D600FFEEF1 /* noqluUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0FAFF2326A744D300FFEEF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					E0FAFF2A26A744D300FFEEF1 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					E0FAFF3C26A744D600FFEEF1 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = E0FAFF2A26A744D300FFEEF1;
+					};
+					E0FAFF4726A744D600FFEEF1 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = E0FAFF2A26A744D300FFEEF1;
+					};
+				};
+			};
+			buildConfigurationList = E0FAFF2626A744D300FFEEF1 /* Build configuration list for PBXProject "noqlu" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E0FAFF2226A744D300FFEEF1;
+			productRefGroup = E0FAFF2C26A744D300FFEEF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0FAFF2A26A744D300FFEEF1 /* noqlu */,
+				E0FAFF3C26A744D600FFEEF1 /* noqluTests */,
+				E0FAFF4726A744D600FFEEF1 /* noqluUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E0FAFF2926A744D300FFEEF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0FAFF3626A744D600FFEEF1 /* Preview Assets.xcassets in Resources */,
+				E0FAFF3326A744D600FFEEF1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0FAFF3B26A744D600FFEEF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0FAFF4626A744D600FFEEF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0FAFF2726A744D300FFEEF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0FAFF3126A744D300FFEEF1 /* ContentView.swift in Sources */,
+				E0FAFF2F26A744D300FFEEF1 /* noqluApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0FAFF3926A744D600FFEEF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0FAFF4226A744D600FFEEF1 /* noqluTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0FAFF4426A744D600FFEEF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0FAFF4D26A744D600FFEEF1 /* noqluUITests.swift in Sources */,
+				E020CB1A26A860890048A123 /* app.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E0FAFF3F26A744D600FFEEF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0FAFF2A26A744D300FFEEF1 /* noqlu */;
+			targetProxy = E0FAFF3E26A744D600FFEEF1 /* PBXContainerItemProxy */;
+		};
+		E0FAFF4A26A744D600FFEEF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0FAFF2A26A744D300FFEEF1 /* noqlu */;
+			targetProxy = E0FAFF4926A744D600FFEEF1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E0FAFF4F26A744D600FFEEF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E0FAFF5026A744D600FFEEF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		E0FAFF5226A744D600FFEEF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = noqlu/noqlu.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"noqlu/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = noqlu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = idk.noqlu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E0FAFF5326A744D600FFEEF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = noqlu/noqlu.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"noqlu/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = noqlu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = idk.noqlu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E0FAFF5526A744D600FFEEF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = noqluTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = idk.noqluTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/noqlu.app/Contents/MacOS/noqlu";
+			};
+			name = Debug;
+		};
+		E0FAFF5626A744D600FFEEF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = noqluTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = idk.noqluTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/noqlu.app/Contents/MacOS/noqlu";
+			};
+			name = Release;
+		};
+		E0FAFF5826A744D600FFEEF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = noqluUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = idk.noqluUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = noqlu;
+			};
+			name = Debug;
+		};
+		E0FAFF5926A744D600FFEEF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = noqluUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = idk.noqluUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = noqlu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0FAFF2626A744D300FFEEF1 /* Build configuration list for PBXProject "noqlu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0FAFF4F26A744D600FFEEF1 /* Debug */,
+				E0FAFF5026A744D600FFEEF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0FAFF5126A744D600FFEEF1 /* Build configuration list for PBXNativeTarget "noqlu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0FAFF5226A744D600FFEEF1 /* Debug */,
+				E0FAFF5326A744D600FFEEF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0FAFF5426A744D600FFEEF1 /* Build configuration list for PBXNativeTarget "noqluTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0FAFF5526A744D600FFEEF1 /* Debug */,
+				E0FAFF5626A744D600FFEEF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0FAFF5726A744D600FFEEF1 /* Build configuration list for PBXNativeTarget "noqluUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0FAFF5826A744D600FFEEF1 /* Debug */,
+				E0FAFF5926A744D600FFEEF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0FAFF2326A744D300FFEEF1 /* Project object */;
+}
